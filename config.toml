@@ -8,3 +8,4 @@ theme = "hugo-uno"
 [Params]
 email = "peterwangyong@foxmail.com"
 description = "万物之上，皆为涌现"
+github = "PeterWangYong"
