@@ -1,3 +1,10 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://peterwangyong.github.io"
+languageCode = "zh-CN"
+title = "涌现"
+author = "PeterWang"
+builddrafts = false
+theme = "hugo-uno"
+
+[Params]
+email = "peterwangyong@foxmail.com"
+description = "万物之上，皆为涌现"
