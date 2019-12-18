@@ -2,8 +2,8 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "https://peterwangyong.github.io/"
-title = "PeterWang's Blog"
+baseURL = "http://localhost:1313/"
+title = "Jane - A super concise theme for Hugo"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -16,12 +16,12 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 # language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "zh-cn"           # Default language to use
-[languages.zh-cn]
-  languageCode = "zh-cn"
+defaultContentLanguage = "en"           # Default language to use
+[languages.en]
+  languageCode = "en"
 
 [author]                  # essential                     # 必需
-  name = "王勇"
+  name = "xianmin"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -49,9 +49,9 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "github"
+  name = "external-link"
   weight = 50
-  url = "https://github.com/PeterWangYong"
+  url = "https://gohugo.io"
 
 
 [params]
