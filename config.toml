@@ -21,7 +21,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   languageCode = "zh-cn"
 
 [author]                  # essential                     # 必需
-  name = "王勇"
+  name = "PeterWang"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -29,40 +29,41 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "This is Home"
+  name = "首页"
   weight = 10
-  identifier = "home"
+  identifier = "index"
   url = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "文章"
   weight = 20
-  identifier = "archives"
+  identifier = "post"
   url = "/post/"
 [[menu.main]]
-  name = "Tags"
+  name = "教程"
   weight = 30
-  identifier = "tags"
-  url = "/tags/"
+  identifier = "tutorial"
+  url = "/tutorial/"
 [[menu.main]]
-  name = "Categories"
+  name = "作品"
   weight = 40
-  identifier = "categories"
-  url = "/categories/"
+  identifier = "work"
+  url = "/work/"
 [[menu.main]]
-  name = "github"
+  name = "关于"
   weight = 50
-  url = "https://github.com/PeterWangYong"
+  identifier = "about"
+  url = "/about/"
 
 
 [params]
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2019"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Othewise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","jane"]
-  description = "Hugo theme jane example site."
+  logoTitle = "SpringUp"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["PeterWang", "SpringUp", "Blog"]
+  description = "PeterWang's Blog"
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
@@ -79,22 +80,9 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-    o-goodreads = "http://localhost:1313"
-    p-coding = "http://localhost:1313"
-    q-bilibili = "http://localhost:1313"
-    r-codeforces = "http://localhost:1313"
-    s-mastodon = "http://localhost:1313"
+    a-email = "peterwangyong@foxmail.com"
+    g-github = "https://github.com/PeterWangYong"
+    h-weibo = "https://weibo.com/2275788611/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1"
+    i-zhihu = "https://www.zhihu.com/people/peter-58-47/activities"
+    j-douban = "https://www.douban.com/people/150080267/"
+    q-bilibili = "https://space.bilibili.com/4413863/dynamic"
