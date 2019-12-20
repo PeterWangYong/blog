@@ -80,7 +80,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    a-email = "peterwangyong@foxmail.com"
+    a-email = "peterwangyong66@foxmail.com"
     g-github = "https://github.com/PeterWangYong"
     h-weibo = "https://weibo.com/2275788611/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1"
     i-zhihu = "https://www.zhihu.com/people/peter-58-47/activities"
